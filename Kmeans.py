@@ -138,4 +138,5 @@ def Piegraph():
 
 
 if __name__ == "__main__":
-    app.run(debug=True,port=6010)
+   app.run(debug=True,port=6010)
+   app.secret_key = "secret_key" 
